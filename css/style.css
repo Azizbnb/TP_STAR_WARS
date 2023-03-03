@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    height: 100vh;
+    background: #000;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    height: 60px;
+}
+
+.nav-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 250px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.link:first-child{
+    color: #5e96b7;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 90%;
+    height: 90vh;
+}
+
+.nav-container{
+    width: 150px;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-container .btn {
+    border-right: none;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn-planet{
+    margin-top: 20px;
+
+}
+
+
+.container-2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.container-2 span {
+    color: #5e96b7;
+}
+
+.square{
+    padding: 20px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+h1{
+    font-size: 20px;
+    color: #5e96b7;
+}
+
+button{
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #947bee;
+    color: white;
+    transition: background-color 0.1s ease-in-out, opacity 0.1s;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #195e79;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #5e96b7;
+    text-align: center;
+    width: 200px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.card:hover {
+    background-color: #947bee;
+    color: white;
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.card:active {
+    border: 3px solid yellow;
+    color: white;
+    opacity: 0.5;
+    transition: background-color 0.3s ease-in-out, opacity 0.1s;
+}
+
+.square-2 .btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card span {
+    border: 2px solid white;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+  
+
+
